@@ -18,37 +18,37 @@ In this project you'll take take an almost completed e-commerce store and refact
 
 ### Task 1: Project Set up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal.
-- [ ] CD into the project base directory `cd react-shopping-cart`.
-- [ ] Download project dependencies by running `npm install`.
-- [ ] Start up the app using `npm start`.
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [?] Add your team lead as collaborator on Github.
+- [x] Clone your OWN version of the repository in your terminal.
+- [?] CD into the project base directory `cd react-shopping-cart`.
+- [x] Download project dependencies by running `npm install`.
+- [x] Start up the app using `npm start`.
+- [?] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [?] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [?] Push commits: git push origin `<firstName-lastName>`.
 
 ### Task 2: MVP
 
 Before you get started, please take a few minutes and get acquainted with this application. Understand what's going on and how it's working.
 
-- If you look in the `App.js` you'll notice there are currently two state properties - `products` to keep track of all available products, and `cart` that will keep track of all the items in our `cart`.
+- [x] If you look in the `App.js` you'll notice there are currently two state properties - `products` to keep track of all available products, and `cart` that will keep track of all the items in our `cart`.
 
-- You'll also notice inside of our `App.js` we have 3 components. A navigation component and two route based components. Each of those components are all being passed either our `cart` state or `product` state as props, when we start to scale our application and add more props our codebase is going to start to become very cumbersome and will make our application hard to work with.
+- [x] You'll also notice inside of our `App.js` we have 3 components. A navigation component and two route based components. Each of those components are all being passed either our `cart` state or `product` state as props, when we start to scale our application and add more props our codebase is going to start to become very cumbersome and will make our application hard to work with.
 
-- To combat this from happening we're going to refactor our application to use `Context API`, making it easier and more effiecent to access data across our application.
+- [x] To combat this from happening we're going to refactor our application to use `Context API`, making it easier and more effiecent to access data across our application.
 
 **Step 1 - Add item functionality**
 
-- In `App.js` there is a function called `addItem`. Finish writing the logic in this function to be able to add the given item to the shopping cart
+- [x] In `App.js` there is a function called `addItem`. Finish writing the logic in this function to be able to add the given item to the shopping cart
 
 **STEP 2 - Creating ProductContext**
 
-- In `src`, create a new folder named `contexts`, this folder is going to be used to hold all of `context objects` we create.
+- [x] In `src`, create a new folder named `contexts`, this folder is going to be used to hold all of `context objects` we create.
 
-- Inside that folder create a new file named `ProductContext.js`
+- [x] Inside that folder create a new file named `ProductContext.js`
 
-- In this file, import the `createContext` function from the react library and create our `ProductContext`.
+- [x] In this file, import the `createContext` function from the react library and create our `ProductContext`.
 
 **STEP 3 - Providing data with ProductContext**
 
